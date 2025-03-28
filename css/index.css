@@ -1,19 +1,8 @@
-/* mobile firts */
-/* 1. todo lo que este fuera de un media query es css enfocado al movil(el mas) */
-/* 2. los mediaqueries van a atacar al siguiente dispositivo mas grande */
-/* 3. las condiciones del mediaquery deben atacar al ancho minimo(mind-width) */
-
-/* desktop firts */
-/* 1. todo lo que este fuera de un media query es css enfocado al desktop (el mas grande) */
-/* 2. los mediaqueries van a atacar al siguiente dispsitivo mas pequeño */
-/* 3. las condiciones del media query deben atacar al ancho mas pequeño(max-width) */
+html{
+    font-size: 62.5%;      
+}
 
 body{
     background-color: violet;
-}
-.header{
-    background-color: rgb(95, 247, 95);
-}
-.footer{
-    background-color: red;
+    font-size: 1.4rem;
 }
