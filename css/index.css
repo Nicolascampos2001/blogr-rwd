@@ -1,4 +1,11 @@
 /* 16px * 0.625 =10px conversion en base 10 */
+:root{
+    --Magic-Potion: #fe4e5b;
+    --Jacarta: #3a3d5c;
+    --Dark-Gunmetal: #24242c;
+
+    --overall-fontsize: 62.5%;
+}
 html,
 body{
     height: 100%;
@@ -6,11 +13,10 @@ body{
     padding: 0;
 }
 html{
-    font-size: 62.5%;      
+    font-size: var(--overall-fontsize);      
 }
 
 body{
-    background-color: violet;
     font-size: 1.4rem;
 }
 .main-container{
@@ -18,10 +24,30 @@ body{
     display: flex;
     flex-direction: column;
 }
+
+/** header */
+
+.header {
+    background-color: var(--Magic-Potion);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/** main */
+
 .main{
     flex-grow: 1;
     max-height: 100vh;
     height: 100vh;
+}
+
+/** footer */
+
+.footer {
+    background-color: var(--Dark-Gunmetal);
 }
 .container{
     border: 2px dotted blue;
