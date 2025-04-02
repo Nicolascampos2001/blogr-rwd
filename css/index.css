@@ -99,6 +99,48 @@ body{
     height: 100vh;
 }
 
+/**main:section call to action*/
+.section-call-to-action {
+    background: var(--Magic-Potion);
+    display: flex;
+    height: 44rem;
+    border-radius: 0 0 0 12em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+.buttons {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 4rem auto;
+}
+.buttons {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 4rem auto;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.4rem;
+    margin: 4rem auto;
+}
+.section-call-to-action {
+    background: var(--Magic-Potion);
+    display: flex
+;
+    height: 44rem;
+    border-radius: 0 0 0 12em;
+}
+
 /** footer */
 
 .footer {
