@@ -12,7 +12,6 @@ body{
     margin: 0;
     padding: 0;
     font-family: "inter", sans-serif;
-
 }
 html{
     font-size: var(--overall-fontsize);      
@@ -181,6 +180,45 @@ body{
     box-sizing: border-box;
     padding: 0;
 }
+
+/** Main: State of the art */
+.section-state-of-the-art.section {
+    margin: 24rem 0 0;
+    color: white;
+}
+.bg-jacarta {
+    background: var(--Jacarta);
+    height: 60rem;
+    border-radius: 0 12rem;
+}
+
+.content-state-of-the-art .section-1 {
+    display: flex;
+    position: relative;
+    top: -18rem;
+}
+
+.img-state-of-art {
+    width: 100%;
+    max-width: 100%;
+}
+
+.content-state-of-the-art .section-2 {
+    position: relative;
+    top: -16rem;
+}
+
+.content-state-of-the-art h2 {
+    font-size: 3.7rem;
+    font-weight: normal;
+}
+
+.content-state-of-the-art p {
+    text-align: left;
+    line-height: 1.9rem;
+    font-size: 1.2rem;
+}
+
 /** media queries */
 @media (min-width: 567px) {
     .container{ 
